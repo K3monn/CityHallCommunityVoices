@@ -1,6 +1,6 @@
 # City Hall & Community Voices — Unity Project Scaffold
 
-This is a **project scaffold**, not a finished, buildable Unity project. It was written outside Unity (in a cloud environment with no Unity Editor, no Android SDK, and no Asset Store access), so nothing here has been opened, compiled, or run in the Editor. Treat it as a strong starting point that still needs an Editor pass — see "Known limitations" at the bottom before you assume anything is final.
+This is a **project scaffold**, not a finished, buildable Unity project. Treat it as a strong starting point that still needs an Editor pass — see "Known limitations" at the bottom before you assume anything is final.
 
 What you get:
 - A proper `Assets/` folder layout and a `Packages/manifest.json` pre-loaded with the packages this project needs (XR Interaction Toolkit, OpenXR, URP, AI Navigation, TextMeshPro, ProBuilder).
