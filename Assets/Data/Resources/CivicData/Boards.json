@@ -1,0 +1,136 @@
+{
+    "boards": [
+        {
+            "id": "bulletin_board_upcoming",
+            "title": "Neighborhood Bulletin Board — Upcoming",
+            "body": "City Council Meeting — Thursday 7:00 PM, City Hall\nFood Drive — Saturday 9 AM-1 PM, Community Center\nCommunity Cleanup — Sunday 10 AM, meet at the park\nSchool Board Meeting — Tuesday 6:30 PM, Public School\nFarmers Market — every Saturday, Main Street",
+            "location": "residential - neighborhood park entrance"
+        },
+        {
+            "id": "bus_stop_transit_survey",
+            "title": "Public Transit Expansion Survey",
+            "body": "The city is asking riders to weigh in on new bus routes and stop frequency. Scan the code or visit City Hall to share your input.",
+            "location": "residential - bus stop"
+        },
+        {
+            "id": "library_poster_local_gov",
+            "title": "Learn How Local Government Works",
+            "body": "Free weekly sessions at the library explain how the council, county, and school board fit together — no registration needed, drop in any Wednesday evening.",
+            "location": "public library exterior"
+        },
+        {
+            "id": "community_center_planning_workshop",
+            "title": "Neighborhood Planning Workshop",
+            "body": "Residents are invited to help sketch ideas for the vacant lot on 5th Street. All ages welcome — materials and coffee provided.",
+            "location": "community center exterior"
+        },
+        {
+            "id": "election_register_to_vote",
+            "title": "Register to Vote",
+            "body": "Registration deadlines, sample ballots, and polling locations for the upcoming election. City Hall staff can help you check your registration status.",
+            "location": "city hall plaza"
+        },
+        {
+            "id": "sign_coffee_shop",
+            "title": "Coffee Shop",
+            "body": "Locally owned, always busy before the morning commute. A regular meeting spot for neighbors catching up.",
+            "location": "commercial - Main Street"
+        },
+        {
+            "id": "sign_grocery_store",
+            "title": "Grocery Store",
+            "body": "A mid-size independent grocer — one of the few in walking distance for the apartment residents nearby.",
+            "location": "commercial - Main Street"
+        },
+        {
+            "id": "sign_pharmacy",
+            "title": "Pharmacy",
+            "body": "Handles prescriptions for most of the neighborhood; also a flu-shot clinic site every fall.",
+            "location": "commercial - Main Street"
+        },
+        {
+            "id": "sign_barber_shop",
+            "title": "Barber Shop",
+            "body": "Three chairs, no appointments needed most days. An informal hub for neighborhood conversation.",
+            "location": "commercial - Main Street"
+        },
+        {
+            "id": "sign_laundromat",
+            "title": "Laundromat",
+            "body": "Open late, mostly serves renters in the apartment complex without in-unit laundry.",
+            "location": "commercial - Main Street"
+        },
+        {
+            "id": "sign_restaurant",
+            "title": "Restaurant",
+            "body": "Family-run for over a decade. Business slows during road construction and picks back up for festivals.",
+            "location": "commercial - Main Street"
+        },
+        {
+            "id": "sign_bookstore",
+            "title": "Bookstore",
+            "body": "Small independent shop that hosts the after-school reading group on Wednesdays.",
+            "location": "commercial - Main Street"
+        },
+        {
+            "id": "sign_bakery",
+            "title": "Bakery",
+            "body": "Opens at 5 AM. Supplies bread to two of the restaurants on this block.",
+            "location": "commercial - Main Street"
+        },
+        {
+            "id": "sign_flower_shop",
+            "title": "Flower Shop",
+            "body": "Sources some stock from the community garden's surplus program.",
+            "location": "commercial - Main Street"
+        },
+        {
+            "id": "sign_public_library",
+            "title": "Public Library",
+            "body": "Also runs the after-school program and hosts community meetings when City Hall's rooms are booked.",
+            "location": "public buildings row"
+        },
+        {
+            "id": "sign_police_station",
+            "title": "Police Station",
+            "body": "Community policing office — also coordinates the neighborhood watch program.",
+            "location": "public buildings row"
+        },
+        {
+            "id": "sign_fire_department",
+            "title": "Fire Department",
+            "body": "Covers this district plus two neighboring ones; funded through the city's public safety budget.",
+            "location": "public buildings row"
+        },
+        {
+            "id": "sign_community_center",
+            "title": "Community Center",
+            "body": "Hosts the food drive, youth programs, and rentable rooms for resident group meetings.",
+            "location": "public buildings row"
+        },
+        {
+            "id": "sign_public_school",
+            "title": "Public School",
+            "body": "K-8 school; the School Board (a separate elected body from City Council) oversees its budget.",
+            "location": "public buildings row"
+        },
+        {
+            "id": "sign_health_clinic",
+            "title": "Health Clinic",
+            "body": "A city-subsidized clinic offering low-cost care, partly funded through the public health budget line.",
+            "location": "public buildings row"
+        },
+        {
+            "id": "sign_transit_station",
+            "title": "Transit Station",
+            "body": "The regional bus line's main stop for this district — proposed for expanded service pending council review.",
+            "location": "public buildings row"
+        },
+        {
+            "id": "canvassing_volunteer_signup",
+            "title": "Join the Off-Season Canvass",
+            "body": "Elections aren't the only reason to knock on doors. Our volunteer canvassers check in with neighbors year-round about road repairs, park upkeep, and city services — no campaign required. Sign up at the Community Engagement Office in City Hall.",
+            "location": "residential - neighborhood sidewalk"
+        }
+    ]
+}

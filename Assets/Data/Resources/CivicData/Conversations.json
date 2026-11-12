@@ -1,0 +1,696 @@
+{
+    "conversations": [
+        {
+            "id": "door_knock_prompt",
+            "kicker": "Respectful Canvassing",
+            "title": "At the front door",
+            "lines": [
+                {
+                    "speaker": "You",
+                    "text": "Do you want to knock on the door?",
+                    "displaySeconds": 3.5,
+                    "isPlayerLine": true,
+                    "choices": [
+                        {
+                            "text": "Knock and introduce yourself",
+                            "tag": "door_knock",
+                            "npcResponseText": "You knock once and give the resident time to answer.",
+                            "educationalNote": "A respectful canvasser identifies themself, explains why they are visiting, and accepts a resident's choice not to talk."
+                        },
+                        {
+                            "text": "Not now",
+                            "tag": "door_cancel",
+                            "npcResponseText": "You can visit another home whenever you are ready."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "door_knock_answered",
+            "kicker": "Neighborhood Conversation",
+            "title": "A resident answers",
+            "lines": [
+                {
+                    "speaker": "Resident",
+                    "text": "Hello. What would you like to talk about?",
+                    "displaySeconds": 3.5
+                }
+            ]
+        },
+        {
+            "id": "door_knock_no_answer",
+            "kicker": "Neighborhood Conversation",
+            "title": "No answer",
+            "lines": [
+                {
+                    "speaker": "You",
+                    "text": "Nobody answered. You can leave a respectful note or continue to the next home.",
+                    "displaySeconds": 4.5,
+                    "isPlayerLine": true
+                }
+            ]
+        },
+        {
+            "id": "parent_neighbor_sidewalks",
+            "kicker": "Sidewalks & School Pickup",
+            "title": "Parent & Neighbor",
+            "lines": [
+                {
+                    "speaker": "Parent",
+                    "text": "I really hope they expand the sidewalks. My kids walk to school every day.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4.5
+                },
+                {
+                    "speaker": "Neighbor",
+                    "text": "I agree. There are too many cars during pickup.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 3.5
+                }
+            ]
+        },
+        {
+            "id": "business_owner_customer_construction",
+            "kicker": "Main Street Construction",
+            "title": "Business Owner & Customer",
+            "lines": [
+                {
+                    "speaker": "Business Owner",
+                    "text": "The construction slowed down customers.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 3.5
+                },
+                {
+                    "speaker": "Customer",
+                    "text": "True, but the new road should help long term.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 3.5
+                }
+            ]
+        },
+        {
+            "id": "student_friend_council",
+            "kicker": "Who Decides?",
+            "title": "Student & Friend",
+            "lines": [
+                {
+                    "speaker": "Student",
+                    "text": "I didn't know the City Council actually voted on parks.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4
+                },
+                {
+                    "speaker": "Friend",
+                    "text": "I thought schools handled that.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 3
+                }
+            ]
+        },
+        {
+            "id": "older_resident_maintenance",
+            "kicker": "Long-Time Resident",
+            "title": "Older Resident",
+            "lines": [
+                {
+                    "speaker": "Older Resident",
+                    "text": "I've lived here twenty years.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 3
+                },
+                {
+                    "speaker": "Older Resident",
+                    "text": "You can really tell when the city invests in maintenance.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4
+                },
+                {
+                    "speaker": "Older Resident",
+                    "text": "You canvassers keep coming around even when there's no election. That still surprises me, twenty years in.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 5.0,
+                    "choices": [
+                        {
+                            "text": "Explain that's the whole point \u2014 trust shouldn't only show up at election time",
+                            "tag": "listen",
+                            "moraleDelta": 6.0,
+                            "npcResponseText": "\"Well. I appreciate that, actually.\" She smiles.",
+                            "educationalNote": "That's the thesis of off-season canvassing: showing up consistently, not just when votes are on the line, is what actually builds trust."
+                        },
+                        {
+                            "text": "Admit it's mostly just before elections",
+                            "tag": "dismiss",
+                            "moraleDelta": -6.0,
+                            "npcResponseText": "\"Ha. That's what I figured.\" She doesn't seem surprised, or impressed.",
+                            "educationalNote": "This is the exact perception off-season canvassing is meant to fix \u2014 confirming it only reinforces the cynicism."
+                        },
+                        {
+                            "text": "Change the subject",
+                            "tag": "rush",
+                            "moraleDelta": -2.0,
+                            "npcResponseText": "\"...Alright then.\"",
+                            "educationalNote": "Avoiding the question is its own answer \u2014 residents notice when a conversation gets dodged."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cyclist_bike_lanes",
+            "kicker": "Getting Around",
+            "title": "Cyclist",
+            "lines": [
+                {
+                    "speaker": "Cyclist",
+                    "text": "I'd bike to work every day if we had more protected bike lanes.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4.5
+                }
+            ]
+        },
+        {
+            "id": "transit_rider_bus",
+            "kicker": "Riding the Bus",
+            "title": "Transit Rider",
+            "lines": [
+                {
+                    "speaker": "Transit Rider",
+                    "text": "The bus is reliable.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 2.5
+                },
+                {
+                    "speaker": "Transit Rider",
+                    "text": "I just wish it came every fifteen minutes.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 3.5
+                }
+            ]
+        },
+        {
+            "id": "young_parent_library",
+            "kicker": "After-School Program",
+            "title": "Young Parent",
+            "lines": [
+                {
+                    "speaker": "Young Parent",
+                    "text": "The library's after-school program has been amazing.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4
+                }
+            ]
+        },
+        {
+            "id": "restaurant_owner_events",
+            "kicker": "Community Events",
+            "title": "Restaurant Owner",
+            "lines": [
+                {
+                    "speaker": "Restaurant Owner",
+                    "text": "We depend on community events.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 3
+                },
+                {
+                    "speaker": "Restaurant Owner",
+                    "text": "When there's a festival downtown, business doubles.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4
+                },
+                {
+                    "speaker": "Restaurant Owner",
+                    "text": "Are you with the city? If so \u2014 this block could use more foot traffic outside festival weekends. Can you help with that?",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 5.0,
+                    "choices": [
+                        {
+                            "text": "Offer to note it for the events office and follow up later",
+                            "tag": "listen",
+                            "moraleDelta": 6.0,
+                            "npcResponseText": "\"That'd mean a lot. Most people just say 'I'll look into it' and vanish.\"",
+                            "educationalNote": "Following up is what separates real canvassing from a one-time photo-op \u2014 off-season visits work because someone actually closes the loop."
+                        },
+                        {
+                            "text": "Shrug and say that's not really your department",
+                            "tag": "dismiss",
+                            "moraleDelta": -5.0,
+                            "npcResponseText": "\"Right. Of course.\" He turns back to the register.",
+                            "educationalNote": "Deflecting a fair concern reads as indifference. \"I don't know, but I'll find out\" builds more trust than waving someone off."
+                        },
+                        {
+                            "text": "Promise a festival every single weekend",
+                            "tag": "overpromise",
+                            "moraleDelta": -2.0,
+                            "npcResponseText": "\"Every weekend? That's... a lot. I don't think that's realistic.\"",
+                            "educationalNote": "Big, unrealistic promises can sound generous, but residents can usually tell \u2014 credibility matters more than enthusiasm."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "city_employee_decisions",
+            "kicker": "Behind the Scenes",
+            "title": "City Employee",
+            "lines": [
+                {
+                    "speaker": "City Employee",
+                    "text": "People usually only notice government when something goes wrong.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4.5
+                },
+                {
+                    "speaker": "City Employee",
+                    "text": "But hundreds of small decisions keep the city running every day.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4.5
+                }
+            ]
+        },
+        {
+            "id": "teenager_friend_council_meeting",
+            "kicker": "First Council Meeting",
+            "title": "Teenager & Friend",
+            "lines": [
+                {
+                    "speaker": "Teenager",
+                    "text": "I came here because our class has to attend tonight's council meeting.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4.5
+                },
+                {
+                    "speaker": "Friend",
+                    "text": "I didn't realize anyone could actually speak during public comment.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4.5
+                }
+            ]
+        },
+        {
+            "id": "engineer_road_repair",
+            "kicker": "Fixing What's Underneath",
+            "title": "City Engineer",
+            "lines": [
+                {
+                    "speaker": "City Engineer",
+                    "text": "Half of what we repair, people never even see \u2014 it's the pipe under the road, not the road itself.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 5
+                },
+                {
+                    "speaker": "Passerby",
+                    "text": "Huh. I always just figured potholes were random.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 3.5
+                },
+                {
+                    "speaker": "City Engineer",
+                    "text": "Since you're checking in \u2014 has anyone on your route mentioned anything about the repairs?",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4.5,
+                    "choices": [
+                        {
+                            "text": "Share what neighbors told you and ask what happens next",
+                            "tag": "listen",
+                            "moraleDelta": 6.0,
+                            "npcResponseText": "\"That's genuinely useful \u2014 most of what we hear comes in only after something breaks.\"",
+                            "educationalNote": "Canvassers are often the fastest link between what residents notice and what city departments can actually fix."
+                        },
+                        {
+                            "text": "Say you didn't really talk to anyone about it",
+                            "tag": "rush",
+                            "moraleDelta": -4.0,
+                            "npcResponseText": "\"Ah, no worries. Just curious.\"",
+                            "educationalNote": "Skipping the actual conversation defeats the purpose of an off-season canvass \u2014 it's the listening that builds the relationship, not just showing up."
+                        },
+                        {
+                            "text": "Complain that road work always takes too long",
+                            "tag": "negative",
+                            "moraleDelta": -3.0,
+                            "npcResponseText": "\"...I mean, we're doing our best with what we've got.\"",
+                            "educationalNote": "Canvassing works best as a two-way conversation, not a chance to vent \u2014 specific, constructive feedback lands better than frustration."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "new_resident_orientation",
+            "kicker": "Just Moved In",
+            "title": "New Resident",
+            "lines": [
+                {
+                    "speaker": "New Resident",
+                    "text": "We just moved here in the spring \u2014 still figuring out which meetings are worth going to.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 5
+                }
+            ]
+        },
+        {
+            "id": "park_volunteer_cleanup",
+            "kicker": "Community Cleanup",
+            "title": "Park Volunteer",
+            "lines": [
+                {
+                    "speaker": "Park Volunteer",
+                    "text": "We do this every season. It's amazing how much trash collects near the creek.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4.5
+                }
+            ]
+        },
+        {
+            "id": "city_planner_zoning",
+            "kicker": "Planning Ahead",
+            "title": "City Planner",
+            "lines": [
+                {
+                    "speaker": "City Planner",
+                    "text": "Every rezoning goes through a public hearing first. It's slower, but it means residents actually get a say.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 5.5
+                }
+            ]
+        },
+        {
+            "id": "canvasser_offseason_engagement",
+            "kicker": "Door-to-Door, No Election in Sight",
+            "title": "Community Canvasser",
+            "lines": [
+                {
+                    "speaker": "Canvasser",
+                    "text": "Hi! I'm not here about an election \u2014 just checking in on behalf of the city. Anything on your street that needs attention?",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4.5,
+                    "choices": [
+                        {
+                            "text": "Ask what's been going on lately, and really listen",
+                            "tag": "listen",
+                            "moraleDelta": 6.0,
+                            "npcResponseText": "\"Actually, yeah \u2014 the streetlight on the corner's been out for weeks.\" She seems glad someone finally asked.",
+                            "educationalNote": "Real canvassers lead with a specific, listening-first question. It surfaces concrete issues staff can actually act on \u2014 and it works whether or not an election is coming."
+                        },
+                        {
+                            "text": "Say you're just passing through and keep walking",
+                            "tag": "rush",
+                            "moraleDelta": -4.0,
+                            "npcResponseText": "\"Oh \u2014 okay. No worries.\" She looks a little disappointed and goes back to her day.",
+                            "educationalNote": "Off-season canvassing only builds trust if it feels genuine. Rushing past the one moment someone's willing to talk defeats the purpose of showing up at all."
+                        },
+                        {
+                            "text": "Promise the city will fix everything by next week",
+                            "tag": "overpromise",
+                            "moraleDelta": -2.0,
+                            "npcResponseText": "\"...Next week? That seems optimistic.\" She looks skeptical rather than reassured.",
+                            "educationalNote": "Overpromising feels generous in the moment, but it erodes trust faster than saying nothing \u2014 and it damages the next volunteer's credibility too."
+                        }
+                    ]
+                },
+                {
+                    "speaker": "Canvasser",
+                    "text": "We do this between elections too. It's easier to fix small problems \u2014 and easier to get people to city meetings \u2014 when we already know each other.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 5.0
+                }
+            ]
+        },
+        {
+            "id": "governor_briefing_low",
+            "kicker": "A Rough Season",
+            "title": "Governor",
+            "lines": [
+                {
+                    "speaker": "Governor",
+                    "text": "Thanks for coming in. I'll be honest \u2014 the check-ins from your team haven't landed well lately. People feel like we only show up when we need something.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 6.0
+                },
+                {
+                    "speaker": "Governor",
+                    "text": "Where should we focus next?",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 3.5,
+                    "choices": [
+                        {
+                            "text": "Focus on residential streets \u2014 door-to-door check-ins",
+                            "tag": "priority",
+                            "moraleDelta": 0.0,
+                            "npcResponseText": "\"Good \u2014 that's where word of mouth travels fastest.\"",
+                            "educationalNote": "Prioritizing where to canvass isn't guesswork \u2014 it's usually driven by where trust has eroded most, or where an issue's gone unresolved.",
+                            "setPriorityZone": "residential"
+                        },
+                        {
+                            "text": "Focus on the commercial strip \u2014 check in with local businesses",
+                            "tag": "priority",
+                            "moraleDelta": 0.0,
+                            "npcResponseText": "\"Business owners talk to a lot of people \u2014 good multiplier effect.\"",
+                            "educationalNote": "Business owners are natural connectors \u2014 word travels through a commercial strip fast, for better or worse.",
+                            "setPriorityZone": "commercial"
+                        },
+                        {
+                            "text": "Focus on transit riders and public infrastructure concerns",
+                            "tag": "priority",
+                            "moraleDelta": 0.0,
+                            "npcResponseText": "\"That's often the most overlooked group. Good call.\"",
+                            "educationalNote": "Transit riders and infrastructure users are frequently the last to be asked, even though they're directly affected by city decisions.",
+                            "setPriorityZone": "public_row"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "governor_briefing_medium",
+            "kicker": "Steady Progress",
+            "title": "Governor",
+            "lines": [
+                {
+                    "speaker": "Governor",
+                    "text": "Good to see you. Things are steady \u2014 residents seem to appreciate the check-ins, even if it's not dramatic yet.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 5.5
+                },
+                {
+                    "speaker": "Governor",
+                    "text": "Where should we focus next?",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 3.5,
+                    "choices": [
+                        {
+                            "text": "Focus on residential streets \u2014 door-to-door check-ins",
+                            "tag": "priority",
+                            "moraleDelta": 0.0,
+                            "npcResponseText": "\"Good \u2014 that's where word of mouth travels fastest.\"",
+                            "educationalNote": "Prioritizing where to canvass isn't guesswork \u2014 it's usually driven by where trust has eroded most, or where an issue's gone unresolved.",
+                            "setPriorityZone": "residential"
+                        },
+                        {
+                            "text": "Focus on the commercial strip \u2014 check in with local businesses",
+                            "tag": "priority",
+                            "moraleDelta": 0.0,
+                            "npcResponseText": "\"Business owners talk to a lot of people \u2014 good multiplier effect.\"",
+                            "educationalNote": "Business owners are natural connectors \u2014 word travels through a commercial strip fast, for better or worse.",
+                            "setPriorityZone": "commercial"
+                        },
+                        {
+                            "text": "Focus on transit riders and public infrastructure concerns",
+                            "tag": "priority",
+                            "moraleDelta": 0.0,
+                            "npcResponseText": "\"That's often the most overlooked group. Good call.\"",
+                            "educationalNote": "Transit riders and infrastructure users are frequently the last to be asked, even though they're directly affected by city decisions.",
+                            "setPriorityZone": "public_row"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "governor_briefing_high",
+            "kicker": "Momentum",
+            "title": "Governor",
+            "lines": [
+                {
+                    "speaker": "Governor",
+                    "text": "Word's gotten around \u2014 people are actually looking forward to seeing canvassers this season. That doesn't happen by accident.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 5.5
+                },
+                {
+                    "speaker": "Governor",
+                    "text": "Where should we focus next?",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 3.5,
+                    "choices": [
+                        {
+                            "text": "Focus on residential streets \u2014 door-to-door check-ins",
+                            "tag": "priority",
+                            "moraleDelta": 0.0,
+                            "npcResponseText": "\"Good \u2014 that's where word of mouth travels fastest.\"",
+                            "educationalNote": "Prioritizing where to canvass isn't guesswork \u2014 it's usually driven by where trust has eroded most, or where an issue's gone unresolved.",
+                            "setPriorityZone": "residential"
+                        },
+                        {
+                            "text": "Focus on the commercial strip \u2014 check in with local businesses",
+                            "tag": "priority",
+                            "moraleDelta": 0.0,
+                            "npcResponseText": "\"Business owners talk to a lot of people \u2014 good multiplier effect.\"",
+                            "educationalNote": "Business owners are natural connectors \u2014 word travels through a commercial strip fast, for better or worse.",
+                            "setPriorityZone": "commercial"
+                        },
+                        {
+                            "text": "Focus on transit riders and public infrastructure concerns",
+                            "tag": "priority",
+                            "moraleDelta": 0.0,
+                            "npcResponseText": "\"That's often the most overlooked group. Good call.\"",
+                            "educationalNote": "Transit riders and infrastructure users are frequently the last to be asked, even though they're directly affected by city decisions.",
+                            "setPriorityZone": "public_row"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "volunteer_debrief_maria",
+            "kicker": "Debriefing After a Long Route",
+            "title": "Maria — Canvassing Volunteer",
+            "lines": [
+                {
+                    "speaker": "Maria",
+                    "text": "Three hours of walking and half the doors didn't even open. Some days I wonder if this is worth it.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4.5,
+                    "choices": [
+                        {
+                            "text": "Ask what kept her going anyway",
+                            "tag": "encourage",
+                            "moraleDelta": 5.0,
+                            "npcResponseText": "\"Honestly? The two conversations that actually happened. One guy hadn't voted in years and asked how to start.\" She perks up remembering it.",
+                            "educationalNote": "Volunteer burnout is real, and the antidote isn't pretending every door is a win — it's remembering the handful of real conversations that make the whole route worth it."
+                        },
+                        {
+                            "text": "Tell her the low response rate means canvassing doesn't work",
+                            "tag": "dismiss",
+                            "moraleDelta": -5.0,
+                            "npcResponseText": "\"...Thanks, that's encouraging.\" She looks more discouraged, not less.",
+                            "educationalNote": "A low doors-answered rate is normal, not a sign of failure — real campaigns plan around it rather than treating every unanswered door as a rejection."
+                        },
+                        {
+                            "text": "Change the subject to tomorrow's route instead",
+                            "tag": "deflect",
+                            "moraleDelta": -1.0,
+                            "npcResponseText": "\"Sure... I guess.\" She nods but doesn't seem heard.",
+                            "educationalNote": "Debrief conversations are where volunteers process a hard shift — skipping past it to logistics can leave people feeling unsupported and more likely to burn out."
+                        }
+                    ]
+                },
+                {
+                    "speaker": "Maria",
+                    "text": "Anyway — same time next week? I'd rather do this with someone else than alone.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4.5
+                }
+            ]
+        },
+        {
+            "id": "volunteer_debrief_sam",
+            "kicker": "First Week on the Doors",
+            "title": "Sam — Canvassing Volunteer",
+            "lines": [
+                {
+                    "speaker": "Sam",
+                    "text": "A guy yelled at me today for even bringing up city stuff. I didn't say anything about an election, I swear.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4.5,
+                    "choices": [
+                        {
+                            "text": "Explain that off-season visits can look suspicious at first, and that's normal",
+                            "tag": "reassure",
+                            "moraleDelta": 4.0,
+                            "npcResponseText": "\"Oh — that actually makes me feel better. I thought I did something wrong.\" He relaxes a little.",
+                            "educationalNote": "Some residents assume any doorstep visit is political, even outside election season. Volunteers who understand that reaction in advance take it less personally and stay in it longer."
+                        },
+                        {
+                            "text": "Suggest he stop canvassing that street",
+                            "tag": "avoid",
+                            "moraleDelta": -3.0,
+                            "npcResponseText": "\"So we just... skip people who react badly? That doesn't seem right either.\" He looks unconvinced.",
+                            "educationalNote": "Avoiding a street after one bad reaction means the residents who most need a follow-up conversation never get one — a single hostile response isn't representative."
+                        },
+                        {
+                            "text": "Tell him to toughen up, it's part of the job",
+                            "tag": "brushoff",
+                            "moraleDelta": -4.0,
+                            "npcResponseText": "\"...Right. Okay.\" He goes quiet for the rest of the conversation.",
+                            "educationalNote": "Dismissing a new volunteer's discomfort is one of the fastest ways to lose them entirely — debrief support is part of what keeps canvassing programs staffed."
+                        }
+                    ]
+                },
+                {
+                    "speaker": "Sam",
+                    "text": "I'll try again tomorrow. Just wanted to say it out loud before I did.",
+                    "voClipResourcePath": "",
+                    "displaySeconds": 4.5
+                }
+            ]
+        },
+        {
+            "id": "reception_welcome",
+            "kicker": "Welcome to City Hall",
+            "title": "Start here",
+            "lines": [
+                {
+                    "speaker": "City Greeter",
+                    "text": "Welcome. The Council Chamber is through the Community Issues corridor on your left. The Mayor's Office is through the Community Resources corridor on your right.",
+                    "displaySeconds": 6.0
+                },
+                {
+                    "speaker": "City Greeter",
+                    "text": "You can review the community plan, explore the civic exhibits, and finish in the Reflection Hall. The neighborhood doors are there when you're ready to listen and canvass.",
+                    "displaySeconds": 6.0
+                }
+            ]
+        },
+        {
+            "id": "mayor_community_plan",
+            "kicker": "City Hall • Community Plan",
+            "title": "Meet Mayor Rivera",
+            "lines": [
+                {
+                    "speaker": "Mayor Rivera",
+                    "text": "Welcome. Our current community plan focuses on safe routes to school, accessible sidewalks, and welcoming parks in every neighborhood. Council reviews proposals in public, and residents can follow the agenda and comment before a vote.",
+                    "displaySeconds": 8.0
+                },
+                {
+                    "speaker": "Mayor Rivera",
+                    "text": "Where would you like to listen first? Your choice guides the next canvassing focus.",
+                    "displaySeconds": 5.0,
+                    "choices": [
+                        {
+                            "text": "Talk with residents in the neighborhood",
+                            "tag": "mayor_focus_residential",
+                            "setPriorityZone": "residential",
+                            "npcResponseText": "Start by listening at the doors and public spaces where neighbors already gather.",
+                            "educationalNote": "Respect a resident's choice to talk or decline, and record themes without promising outcomes."
+                        },
+                        {
+                            "text": "Hear from people along Main Street",
+                            "tag": "mayor_focus_commercial",
+                            "setPriorityZone": "commercial",
+                            "npcResponseText": "Business owners and workers can describe how street changes affect daily life.",
+                            "educationalNote": "Ask open questions and include workers, customers, and people who do not own businesses."
+                        },
+                        {
+                            "text": "Visit the public services district",
+                            "tag": "mayor_focus_public_row",
+                            "setPriorityZone": "public_row",
+                            "npcResponseText": "Libraries, transit stops, and schools are useful places to hear a wider range of needs.",
+                            "educationalNote": "Public engagement should be accessible and welcoming to people with different schedules and needs."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

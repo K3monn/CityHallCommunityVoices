@@ -1,0 +1,301 @@
+{
+    "roster": [
+        {
+            "id": "parent_01",
+            "displayName": "Parent",
+            "occupation": "Parent",
+            "dialogueRole": "parent",
+            "conversationId": "parent_neighbor_sidewalks",
+            "routineId": "school_pickup_route",
+            "zone": "residential"
+        },
+        {
+            "id": "neighbor_01",
+            "displayName": "Neighbor",
+            "occupation": "Retail Worker",
+            "dialogueRole": "neighbor",
+            "conversationId": "parent_neighbor_sidewalks",
+            "routineId": "generic_pedestrian",
+            "zone": "residential"
+        },
+        {
+            "id": "business_owner_01",
+            "displayName": "Business Owner",
+            "occupation": "Restaurant Owner",
+            "dialogueRole": "business_owner",
+            "conversationId": "business_owner_customer_construction",
+            "routineId": "shopkeeper_route",
+            "zone": "commercial"
+        },
+        {
+            "id": "customer_01",
+            "displayName": "Customer",
+            "occupation": "Office Worker",
+            "dialogueRole": "customer",
+            "conversationId": "business_owner_customer_construction",
+            "routineId": "generic_pedestrian",
+            "zone": "commercial"
+        },
+        {
+            "id": "student_01",
+            "displayName": "Student",
+            "occupation": "High School Student",
+            "dialogueRole": "student",
+            "conversationId": "student_friend_council",
+            "routineId": "student_route",
+            "zone": "commercial"
+        },
+        {
+            "id": "friend_01",
+            "displayName": "Friend",
+            "occupation": "High School Student",
+            "dialogueRole": "student",
+            "conversationId": "student_friend_council",
+            "routineId": "student_route",
+            "zone": "commercial"
+        },
+        {
+            "id": "elder_01",
+            "displayName": "Older Resident",
+            "occupation": "Retired",
+            "dialogueRole": "elderly_resident",
+            "conversationId": "older_resident_maintenance",
+            "routineId": "bench_sitter_route",
+            "zone": "city_hall_plaza"
+        },
+        {
+            "id": "cyclist_01",
+            "displayName": "Cyclist",
+            "occupation": "Software Engineer",
+            "dialogueRole": "cyclist",
+            "conversationId": "cyclist_bike_lanes",
+            "routineId": "bike_lane_route",
+            "zone": "residential"
+        },
+        {
+            "id": "transit_rider_01",
+            "displayName": "Transit Rider",
+            "occupation": "Nurse",
+            "dialogueRole": "transit_commuter",
+            "conversationId": "transit_rider_bus",
+            "routineId": "transit_wait_route",
+            "zone": "public_row"
+        },
+        {
+            "id": "young_parent_01",
+            "displayName": "Young Parent",
+            "occupation": "Parent",
+            "dialogueRole": "parent",
+            "conversationId": "young_parent_library",
+            "routineId": "library_visit_route",
+            "zone": "public_row"
+        },
+        {
+            "id": "restaurant_owner_01",
+            "displayName": "Restaurant Owner",
+            "occupation": "Restaurant Owner",
+            "dialogueRole": "restaurant_owner",
+            "conversationId": "restaurant_owner_events",
+            "routineId": "shopkeeper_route",
+            "zone": "commercial"
+        },
+        {
+            "id": "city_employee_01",
+            "displayName": "City Employee",
+            "occupation": "City Hall Staff",
+            "dialogueRole": "city_employee",
+            "conversationId": "city_employee_decisions",
+            "routineId": "city_hall_staff_route",
+            "zone": "city_hall_plaza"
+        },
+        {
+            "id": "teenager_01",
+            "displayName": "Teenager",
+            "occupation": "High School Student",
+            "dialogueRole": "student",
+            "conversationId": "teenager_friend_council_meeting",
+            "routineId": "generic_pedestrian",
+            "zone": "city_hall_plaza"
+        },
+        {
+            "id": "teen_friend_01",
+            "displayName": "Friend",
+            "occupation": "High School Student",
+            "dialogueRole": "student",
+            "conversationId": "teenager_friend_council_meeting",
+            "routineId": "generic_pedestrian",
+            "zone": "city_hall_plaza"
+        },
+        {
+            "id": "engineer_01",
+            "displayName": "City Engineer",
+            "occupation": "Civil Engineer",
+            "dialogueRole": "engineer",
+            "conversationId": "engineer_road_repair",
+            "routineId": "maintenance_worker_route",
+            "zone": "public_row"
+        },
+        {
+            "id": "passerby_01",
+            "displayName": "Passerby",
+            "occupation": "Resident",
+            "dialogueRole": "resident",
+            "conversationId": "engineer_road_repair",
+            "routineId": "generic_pedestrian",
+            "zone": "public_row"
+        },
+        {
+            "id": "new_resident_01",
+            "displayName": "New Resident",
+            "occupation": "Graphic Designer",
+            "dialogueRole": "new_resident",
+            "conversationId": "new_resident_orientation",
+            "routineId": "generic_pedestrian",
+            "zone": "residential"
+        },
+        {
+            "id": "park_volunteer_01",
+            "displayName": "Park Volunteer",
+            "occupation": "Volunteer",
+            "dialogueRole": "park_volunteer",
+            "conversationId": "park_volunteer_cleanup",
+            "routineId": "park_loop_route",
+            "zone": "residential"
+        },
+        {
+            "id": "city_planner_01",
+            "displayName": "City Planner",
+            "occupation": "Urban Planner",
+            "dialogueRole": "city_planner",
+            "conversationId": "city_planner_zoning",
+            "routineId": "city_hall_staff_route",
+            "zone": "city_hall_plaza"
+        },
+        {
+            "id": "dog_walker_01",
+            "displayName": "Dog Walker",
+            "occupation": "Retired",
+            "dialogueRole": "",
+            "conversationId": "",
+            "routineId": "dog_walk_route",
+            "zone": "residential"
+        },
+        {
+            "id": "mail_carrier_01",
+            "displayName": "Mail Carrier",
+            "occupation": "Postal Worker",
+            "dialogueRole": "",
+            "conversationId": "",
+            "routineId": "mail_route",
+            "zone": "residential"
+        },
+        {
+            "id": "maintenance_worker_01",
+            "displayName": "City Maintenance Worker",
+            "occupation": "Public Works",
+            "dialogueRole": "city_maintenance_worker",
+            "conversationId": "",
+            "routineId": "maintenance_worker_route",
+            "zone": "public_row"
+        },
+        {
+            "id": "jogger_01",
+            "displayName": "Jogger",
+            "occupation": "Resident",
+            "dialogueRole": "",
+            "conversationId": "",
+            "routineId": "jog_loop_route",
+            "zone": "residential"
+        },
+        {
+            "id": "delivery_rider_01",
+            "displayName": "Food Delivery Rider",
+            "occupation": "Delivery Rider",
+            "dialogueRole": "",
+            "conversationId": "",
+            "routineId": "delivery_route",
+            "zone": "commercial"
+        },
+        {
+            "id": "street_musician_01",
+            "displayName": "Street Musician",
+            "occupation": "Musician",
+            "dialogueRole": "",
+            "conversationId": "",
+            "routineId": "busker_spot",
+            "zone": "commercial"
+        },
+        {
+            "id": "library_employee_01",
+            "displayName": "Library Employee",
+            "occupation": "Librarian",
+            "dialogueRole": "library_employee",
+            "conversationId": "",
+            "routineId": "library_staff_route",
+            "zone": "public_row"
+        },
+        {
+            "id": "canvasser_01",
+            "displayName": "Community Canvasser",
+            "occupation": "Community Organizer",
+            "dialogueRole": "canvasser",
+            "conversationId": "canvasser_offseason_engagement",
+            "routineId": "generic_pedestrian",
+            "zone": "residential"
+        },
+        {
+            "id": "governor_01",
+            "displayName": "Governor",
+            "occupation": "City Governor",
+            "dialogueRole": "governor",
+            "conversationId": "",
+            "routineId": "bench_sitter_route",
+            "zone": "city_hall_plaza"
+        },
+        {
+            "id": "city_greeter_01",
+            "displayName": "City Greeter",
+            "occupation": "City Hall Volunteer",
+            "dialogueRole": "city_greeter",
+            "conversationId": "reception_welcome",
+            "routineId": "generic_pedestrian",
+            "zone": "city_hall_plaza"
+        },
+        {
+            "id": "records_clerk_01",
+            "displayName": "Records Clerk",
+            "occupation": "City Hall Staff",
+            "dialogueRole": "records_clerk",
+            "conversationId": "",
+            "routineId": "city_hall_staff_route",
+            "zone": "city_hall_plaza"
+        },
+        {
+            "id": "volunteer_maria_01",
+            "displayName": "Maria",
+            "occupation": "Canvassing Volunteer",
+            "dialogueRole": "volunteer",
+            "conversationId": "volunteer_debrief_maria",
+            "routineId": "bench_sitter_route",
+            "zone": "city_hall_plaza"
+        },
+        {
+            "id": "volunteer_sam_01",
+            "displayName": "Sam",
+            "occupation": "Canvassing Volunteer",
+            "dialogueRole": "volunteer",
+            "conversationId": "volunteer_debrief_sam",
+            "routineId": "bench_sitter_route",
+            "zone": "city_hall_plaza"
+        },
+        {
+            "id": "mayor_01",
+            "displayName": "Mayor Rivera",
+            "occupation": "Mayor",
+            "dialogueRole": "mayor",
+            "conversationId": "mayor_community_plan",
+            "routineId": "generic_pedestrian",
+            "zone": "city_hall_plaza"
+        }
+    ]
+}

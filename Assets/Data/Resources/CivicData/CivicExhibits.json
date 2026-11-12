@@ -1,0 +1,64 @@
+{
+    "exhibits": [
+        {
+            "id": "exhibit_budget",
+            "title": "How does a city budget work?",
+            "text": "Each year, departments submit funding requests. City Council reviews them, holds public hearings, and votes to adopt a final budget — usually months before the fiscal year starts."
+        },
+        {
+            "id": "exhibit_taxes",
+            "title": "Where do taxes go?",
+            "text": "Property and sales tax revenue funds police, fire, parks, roads, and administration — split roughly by need, with public works and public safety typically the largest shares."
+        },
+        {
+            "id": "exhibit_council_vote",
+            "title": "How does a city council vote?",
+            "text": "Most decisions need a simple majority of council members present. Some — like zoning changes — require a public hearing first so residents can weigh in before the vote."
+        },
+        {
+            "id": "exhibit_road_repair",
+            "title": "How is a road repaired?",
+            "text": "Public Works inspects road conditions, ranks repairs by urgency and budget, and schedules crews — larger repaving projects are usually bundled into the annual capital plan."
+        },
+        {
+            "id": "exhibit_parks_funding",
+            "title": "How are parks funded?",
+            "text": "A mix of the general fund, dedicated park bonds voters approve, and sometimes state or federal grants for larger projects like trail expansions."
+        },
+        {
+            "id": "exhibit_transit_approval",
+            "title": "How does public transportation get approved?",
+            "text": "A proposed route or expansion goes through a ridership study, a public comment period, and a council vote on funding — often coordinated with the regional transit authority."
+        },
+        {
+            "id": "exhibit_submit_concerns",
+            "title": "How do residents submit concerns?",
+            "text": "In person at the Community Engagement Office, by phone, through the city's online portal, or in person during the public comment period at any council meeting."
+        },
+        {
+            "id": "exhibit_offseason_canvassing",
+            "title": "Why canvass\nbetween elections?",
+            "text": "Volunteers who knock on doors year-round, not just before an election, build the trust that makes local government actually work. Off-season canvassing surfaces problems early, connects neighbors to the right city department, and means residents already know who to call when something needs a vote."
+        },
+        {
+            "id": "exhibit_voter_registration_howto",
+            "title": "How do I register\nto vote?",
+            "text": "Most states let you register online, by mail, or in person at the DMV or a local elections office — usually free and taking only a few minutes. Deadlines vary by state, and some states offer same-day registration. Check your state's official elections website for the exact steps and cutoff dates."
+        },
+        {
+            "id": "exhibit_local_orgs_directory",
+            "title": "What local groups\ncan I get involved with?",
+            "text": "Neighborhood associations, PTAs, tenant unions, mutual aid groups, faith communities, and issue-specific advocacy groups all welcome new volunteers year-round — not just during campaign season. Ask at this desk, or check the community bulletin boards around town, for groups currently organizing near you."
+        },
+        {
+            "id": "exhibit_volunteer_pathways",
+            "title": "How can I start\ncanvassing myself?",
+            "text": "Most local campaigns and civic organizations run short volunteer trainings before sending anyone door to door — you'll learn how to introduce yourself, listen first, and know which concerns to pass along versus which need a direct city-department referral. Sign up here or at the Community Engagement Office in the main lobby."
+        },
+        {
+            "id": "council_community_plan",
+            "title": "What is the City Council reviewing?",
+            "text": "The current fictional community plan considers safer routes to school, accessible sidewalks, and welcoming parks in every neighborhood. City staff study costs and options, publish an agenda, and invite public comment before council members vote. A public meeting is one place to share a concern; it does not guarantee a particular outcome."
+        }
+    ]
+}
